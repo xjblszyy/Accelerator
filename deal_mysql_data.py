@@ -1,5 +1,6 @@
+# coding=utf-8
 import pymysql
-from Accelerator.settings_config import HOST, USER, PASSWORD, DB, PORT
+from .settings_config import HOST, USER, PASSWORD, DB, PORT
 
 
 class MysqlClient(object):
