@@ -5,7 +5,7 @@ from Accelerator.settings_config import WX_GROUP_NAME
 from Accelerator.spiders import SpiderData
 
 
-bot = Bot(cache_path=True)
+bot = Bot(cache_path=True, console_qr=True)
 
 my_grop = bot.groups().search(WX_GROUP_NAME)
 
