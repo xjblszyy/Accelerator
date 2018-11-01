@@ -1,9 +1,8 @@
-# coding=utf-8
 import json
 import time
 from wxpy import *
-from .settings_config import WX_GROUP_NAME
-from .spiders import SpiderData
+from Accelerator.settings_config import WX_GROUP_NAME
+from Accelerator.spiders import SpiderData
 
 
 bot = Bot(cache_path=True)
@@ -23,7 +22,7 @@ if my_grop != []:
         content = "商品介绍:{0}".format(item.get("content"))
         my_grop.send(content)
         my_grop.send("****************************")
-        time.sleep(3)
+        time.sleep(2j)
 
 else:
     raise ("找不到微信群")

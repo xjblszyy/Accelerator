@@ -1,9 +1,8 @@
-# coding=utf-8
 import json
 import time
 from wxpy import *
-from .settings_config import WX_GROUP_NAME
-from .spiders import SpiderData
+from Accelerator.settings_config import WX_GROUP_NAME
+from Accelerator.spiders import SpiderData
 
 
 bot = Bot(cache_path=True)

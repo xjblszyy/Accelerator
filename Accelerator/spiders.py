@@ -1,9 +1,8 @@
-# coding=utf-8
 import re
 import requests
-from .settings_config import REQUEST_URL, USER_AGENT
-from .deal_mysql_data import MysqlClient
-from .settings_config import HOST, USER, PASSWORD, DB, PORT
+from Accelerator.settings_config import REQUEST_URL, USER_AGENT
+from Accelerator.deal_mysql_data import MysqlClient
+from Accelerator.settings_config import HOST, USER, PASSWORD, DB, PORT
 
 
 global sn_flag
