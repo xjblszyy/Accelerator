@@ -8,7 +8,7 @@ HOST = "localhost"
 
 USER = "root"
 
-PASSWORD = "mysql123"
+PASSWORD = "mysql"
 
 DB = "wx_robot"
 

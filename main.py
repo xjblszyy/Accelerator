@@ -22,7 +22,7 @@ if my_grop != []:
         content = "商品介绍:{0}".format(item.get("content"))
         my_grop.send(content)
         my_grop.send("****************************")
-        time.sleep(2j)
+        time.sleep(15)
 
 else:
     raise ("找不到微信群")
