@@ -9,7 +9,7 @@ idna==2.7
 itchat==1.2.32
 kiwisolver==1.0.1
 matplotlib==2.2.2
-numpy==1.14.5
+numpy==1.22.0
 packaging==16.8
 pandas==0.20.3
 pycparser==2.18
